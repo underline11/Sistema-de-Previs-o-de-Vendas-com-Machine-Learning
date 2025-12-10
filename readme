@@ -1,16 +1,22 @@
-# Previsão de Vendas com Machine Learning
+# Classificação de Flores (Iris)
 
-Projeto de regressão linear para prever vendas usando variáveis de marketing, preço e concorrência.
-
-## Como funciona
-O modelo recebe dados históricos e estima vendas futuras com base em padrões matemáticos.
-
-## Tecnologias
-- Python
-- Pandas
-- Scikit-Learn
+Projeto em Python usando Machine Learning para classificar espécies de flores com base no dataset Iris.
 
 ## Como rodar
-1. Instale dependências:
-   ```bash
-   pip install pandas scikit-learn
+1. Instale as dependências:
+   pip install -r requirements.txt
+
+2. Execute:
+   python main.py
+
+## O que o código faz
+- Carrega o conjunto de dados Iris.
+- Treina um modelo de Regressão Logística.
+- Mede a acurácia.
+- Faz uma previsão de exemplo.
+
+## Arquivos
+- main.py — código principal
+- requirements.txt — dependências
+- README.md — instruções
+- .gitignore — arquivos ignorados no repositório
